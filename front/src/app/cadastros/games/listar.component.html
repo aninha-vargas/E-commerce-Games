@@ -1,0 +1,53 @@
+<div class="global">
+  <h1>LISTA DE GAMES</h1>
+</div>
+<div class="tituloListas" class="global">
+  <p>
+    <button mat-raised-button routerLink="/cadastros/games/incluir">
+      Adicionar Game
+    </button>
+  </p>
+</div>
+<div class="global">
+  <table mat-table [dataSource]="games" class="mat-elevation-z8 demo-table">
+    <ng-container matColumnDef="id" class="texto">
+      <th mat-header-cell *matHeaderCellDef>Id</th>
+      <td mat-cell *matCellDef="let game">{{ game.id }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="nome">
+      <th mat-header-cell *matHeaderCellDef>Nome</th>
+      <td mat-cell *matCellDef="let game">{{ game.nome }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="descricao">
+      <th mat-header-cell *matHeaderCellDef>Descrição</th>
+      <td mat-cell *matCellDef="let game">{{ game.desc }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="acoes">
+      <th
+        mat-header-cell
+        *matHeaderCellDef
+        style="text-align: center; padding-right: 35px"
+      >
+        Ações
+      </th>
+      <td class="ultima-coluna" mat-cell *matCellDef="let game">
+        <a routerLink="/cadastros/games/editar/{{ game.id }}"
+          ><mat-icon aria-hidden="false" aria-label="Example home icon"
+            >edit</mat-icon
+          >
+        </a>
+        <a routerLink="/cadastros/games/excluir/{{ game.id }}"
+          ><mat-icon aria-hidden="false" aria-label="Example home icon"
+            >delete</mat-icon
+          >
+        </a>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="colunas"></tr>
+    <tr mat-row *matRowDef="let row; columns: colunas"></tr>
+  </table>
+</div>

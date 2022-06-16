@@ -1,0 +1,10 @@
+.footer{
+  margin-top: 1%;
+}
+.texto{
+  display: flex;
+  justify-content: center;
+  background-color: #1A181B;
+  color: white;
+  padding: 5%;
+}

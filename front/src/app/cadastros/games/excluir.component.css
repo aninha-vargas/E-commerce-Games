@@ -1,0 +1,25 @@
+.bc-color{
+  background-color: #080F0F;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.content{
+  background-color: #710000;
+  width: 50%;
+  height: 250px;
+  border-radius: 15px;
+  padding: 2%;
+}
+.btnCancelar{
+  background-color: #710000;
+}
+.global{
+  display: flex;
+  justify-content: center;
+}
+form {
+  width: 70%;
+}

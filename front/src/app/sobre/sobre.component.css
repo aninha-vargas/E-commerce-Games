@@ -1,0 +1,9 @@
+.sobre{
+  width: 50%;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  background-color: #171614;
+  padding: 5%;
+}

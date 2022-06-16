@@ -1,0 +1,28 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "nome": "Call of Duty MW3",
+      "desc": "Em Call of Duty: Modern Warfare 3, o jogador acompanha os fatos que desencadearam a Terceira Guerra Mundial, entre os Estados Unidos e a Rússia, com alguns aliados europeus e africanos. ",
+      "foto": "../../assets/codmw3.png"
+    },
+    {
+      "id": 2,
+      "nome": "Grand Theft Auto",
+      "desc": "O jogo se passa no estado ficcional de San Andreas,         com a história da campanha um jogador seguindo três         criminosos e seus esforços para realizarem assaltos         sob a pressão de uma agência governamental. O mundo         aberto permite que os jogadores naveguem livremente         pelas áreas rurais e urbanas de San Andreas.",
+      "foto": "../../assets/gtav.png"
+    },
+    {
+      "id": 3,
+      "nome": "Counter-Strike",
+      "desc": "O Counter-Strike: Global Offensive (CS:GO) é a         continuação do jogo de equipas cheio de ação         que foi pioneiro quando foi lançado há 12 anos         atrás. O CS: GO apresenta-se com novos mapas,         personagens, armas e ainda oferece versões         atualizadas de conteúdo do CS clássico.",
+      "foto": "../../assets/csgo.png"
+    },
+    {
+      "id": 4,
+      "nome": "Far Cry 4",
+      "desc": "Em Far Cry 4 o protagonista é Ajay Ghale que regressa a Kyrat         (uma nação fictícia fortemente inspirada em locais da região         Himalaia do Nepal), uma zona indomável e selvagem no seu pais         de origem, para espalhar as cinzas da sua falecida mãe.",
+      "foto": "../../assets/farcry.png"
+    }
+  ]
+}

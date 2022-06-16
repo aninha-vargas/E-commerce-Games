@@ -1,0 +1,29 @@
+<div class="bc-color">
+  <div class="content">
+    <div class="global">
+      <h1>Deseja mesmo EXCLUIR o game?</h1>
+    </div>
+    <div class="global">
+    <form>
+      <mat-card>
+        <mat-card-content>
+          <mat-form-field>
+            <input matInput disabled type="text" placeholder="Nome"
+                   name="nome" [(ngModel)]="game.nome">
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput disabled type="text" placeholder="Descrição"
+                  name="descricao" [(ngModel)]="game.desc">
+          </mat-form-field>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button class="btnCancelar" (click)="excluirGame()"
+                  color="warn">CONFIRMAR</button>
+          <button mat-raised-button class="btn"
+                  routerLink="/cadastros/games">Cancelar</button>
+        </mat-card-actions>
+      </mat-card>
+    </form>
+    </div>
+  </div>
+</div>

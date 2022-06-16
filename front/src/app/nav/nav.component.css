@@ -1,0 +1,11 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.nav{
+  background-color: #1A181B;
+  color: aliceblue;
+}
+.nav a {
+  color: aliceblue;
+  text-decoration: none;
+}

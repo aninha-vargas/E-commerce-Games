@@ -1,0 +1,29 @@
+.global{
+  display: flex;
+  justify-content: center;
+  background-color: #171614;
+  color: aliceblue;
+  padding: 10px;
+}
+table {
+  width: 50%;
+  margin-bottom: 100px;
+  margin-top: 25px;
+}
+button{
+  background-color: darkslategrey;
+  color: aliceblue;
+}
+.mat-row .mat-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-row:hover .mat-cell {
+  border-color: currentColor;
+}
+
+.demo-row-is-clicked {
+  font-weight: bold;
+}

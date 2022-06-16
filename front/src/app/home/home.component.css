@@ -1,0 +1,15 @@
+.card{
+  width: 20%;
+  background-color: darkslategrey;
+  color: aliceblue;
+}
+.card-div{
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 5%;
+  background-color: #171614;
+}
+.button{
+  margin-top: 100%;
+}

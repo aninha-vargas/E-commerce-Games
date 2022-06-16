@@ -1,0 +1,23 @@
+
+<div class="card-div">
+  <mat-card class="example-card card" *ngFor="let game of games">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ game.nome }}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="{{ game.foto }}" />
+    <mat-card-content>
+      <p>
+        {{ game.desc }}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>
+        <mat-icon aria-hidden="false" aria-label="Example home icon">star</mat-icon>
+      </button>
+      <button mat-button>
+        <mat-icon aria-hidden="false" aria-label="Example home icon">share</mat-icon>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

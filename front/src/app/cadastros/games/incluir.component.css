@@ -1,0 +1,18 @@
+.global{
+  display: flex;
+  justify-content: center;
+  background-color: #171614;
+  color: aliceblue;
+  padding: 10px;
+}
+.btn{
+  background-color: green;
+}
+.btnCancelar{
+  background-color: darkred;
+  color: aliceblue;
+}
+form {
+  width: 50%;
+  margin-bottom: 50px;
+}
