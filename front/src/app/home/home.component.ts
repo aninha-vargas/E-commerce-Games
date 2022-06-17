@@ -4,9 +4,6 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { Game } from 'src/models/game.model';
 import { CadastroService } from 'src/services/cadastro.service';
 
-
-
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
