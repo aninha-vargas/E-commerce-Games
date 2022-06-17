@@ -30,6 +30,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { IndexComponent } from './components/views/home/index/index.component';
+import { CarrinhoComponent } from './components/views/home/carrinho/carrinho.component';
 
 @NgModule({
   imports: [
@@ -61,7 +63,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     ListarComponent,
     EditarComponent,
     ExcluirComponent,
-    IncluirComponent
+    IncluirComponent,
+    IndexComponent,
+    CarrinhoComponent
   ],
 
   providers: [],

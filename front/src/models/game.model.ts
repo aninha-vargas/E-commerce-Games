@@ -3,4 +3,5 @@ export class Game {
   nome: string = "";
   desc: string = "";
   foto: string = "";
+  preco: number = 0;
 }
