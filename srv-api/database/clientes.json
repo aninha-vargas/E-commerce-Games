@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "nome": "Bruno",
+    "sobrenome": "Vargas",
+    "cpf": "1234567890123",
+    "fone": "(41) 3231-0332",
+    "endereco": "Rua Mal. Floriano, 320",
+    "cep": "90201-899",
+    "cidade": "Curitiba",
+    "estado": "Paraná"
+  },
+  {
+    "id": 2,
+    "nome": "Pedro",
+    "sobrenome": "de Lara",
+    "cpf": "1234567890123",
+    "fone": "(41) 3231-0332",
+    "endereco": "Rua Mal. Floriano, 320",
+    "cep": "90201-899",
+    "cidade": "Curitiba",
+    "estado": "Paraná"
+  }
+]
