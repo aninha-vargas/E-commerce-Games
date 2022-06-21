@@ -10,7 +10,7 @@ export class CadastroService {
 
   constructor(private http: HttpClient){ }
 
-  URL = "http://localhost:3001/games";
+  URL = "http://localhost:3000/produtos";
 
   listarGames() : Observable<Game[]>{
     return this.http.get<Game[]>(this.URL);
