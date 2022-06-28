@@ -36,8 +36,26 @@
       <tr mat-row *matRowDef="let row; columns: colunasExibidas"></tr>
     </table>
   </mat-card-content>
-
-  <mat-card-header class="total">
-    <mat-card-title> Total: {{ valorTotal | currency: "BRL" }} </mat-card-title>
-  </mat-card-header>
+  <mat-card-content class="footer">
+    <mat-card-footer (click)="limpar()">
+      <button mat-raised-button color="accent">
+        Limpar Carrinho
+      </button></mat-card-footer
+    >
+    <mat-card-footer (click)="salvar()">
+      <button mat-raised-button color="primary">
+        Finalizar compra
+      </button></mat-card-footer
+    >
+    <mat-card-footer (click)="voltar()">
+      <button mat-raised-button class="btn">
+        Continuar comprando
+      </button></mat-card-footer
+    >
+    <mat-card-header class="total">
+      <mat-card-title>
+        Total: {{ valorTotal | currency: "BRL" }}
+      </mat-card-title>
+    </mat-card-header>
+  </mat-card-content>
 </mat-card>

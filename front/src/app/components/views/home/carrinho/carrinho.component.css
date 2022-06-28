@@ -15,5 +15,14 @@ img {
 
 .total {
   justify-content: right;
-  margin-right: 125px;
+  /* margin-right: 125px; */
+}
+.footer{
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+}
+.btn{
+  background-color: red;
+  color: aliceblue;
 }
