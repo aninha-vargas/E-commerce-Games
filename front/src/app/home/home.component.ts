@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Game } from 'src/models/game.model';
 import { CadastroService } from 'src/services/cadastro.service';
+import { CarrinhoService } from 'src/services/carrinho.service';
 
 @Component({
   selector: 'app-home',
@@ -15,7 +16,7 @@ export class HomeComponent implements OnInit {
   colunas: string[] = ['id', 'nome', 'descricao', 'acoes'];
 
   constructor(private cadastro : CadastroService,
-    private router: Router) { }
+    private router: Router, private carrinho: CarrinhoService) { }
 
   ngOnInit(): void {
     this.cadastro.listarGames().subscribe(games => {

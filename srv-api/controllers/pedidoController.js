@@ -4,7 +4,10 @@ class PedidoController {
   async salvar(req, res) {
     const max = await pedidoModel.findOne({}).sort({id: -1});
     let pedido = req.body;
+    // console.log(req)
+    // console.log(pedido)
     pedido.id = max == null ? 1 : max.id + 1;
+    // console.log(pedido)
     const resultado = await pedidoModel.create(pedido);
     res.status(201).json(resultado);
   }

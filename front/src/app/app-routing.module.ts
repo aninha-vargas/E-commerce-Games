@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CarrinhoComponent } from './components/views/home/carrinho/carrinho.component';
+import { SucessoComponent } from './components/views/home/carrinho/sucesso/sucesso.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent,
@@ -16,6 +17,7 @@ const routes: Routes = [
     ],
   },
   { path: "home/carrinho", component: CarrinhoComponent },
+  { path: "home/carrinho/sucesso", component: SucessoComponent },
   { path: "cadastros", component: CadastrosComponent,
       children : [
         { path: "games", component: ListarComponent },

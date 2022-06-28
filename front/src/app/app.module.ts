@@ -32,6 +32,7 @@ import { MatInputModule } from '@angular/material/input';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { IndexComponent } from './components/views/home/index/index.component';
 import { CarrinhoComponent } from './components/views/home/carrinho/carrinho.component';
+import { SucessoComponent } from './components/views/home/carrinho/sucesso/sucesso.component';
 
 @NgModule({
   imports: [
@@ -65,7 +66,8 @@ import { CarrinhoComponent } from './components/views/home/carrinho/carrinho.com
     ExcluirComponent,
     IncluirComponent,
     IndexComponent,
-    CarrinhoComponent
+    CarrinhoComponent,
+    SucessoComponent
   ],
 
   providers: [],
